@@ -11,12 +11,12 @@
 //=======================================================================================================
 
 const parent = React.createElement("div",{id : "parent"},
-                [React.createElement("div",{id : "Child1"},
-                 [React.createElement("h1",{}, "Hi, I am heading H1 inside parent child1 div !!!"),
-                 React.createElement("h2",{}, "Hi, I am heading H2 inside parent child1 div !!!")]),
-                React.createElement("div",{id : "Child2"},
-                 [React.createElement("h1",{}, "Hi, I am heading H1 inside parent child2 div !!!"),
-                 React.createElement("h2",{}, "Hi, I am heading H2 inside parent child2 div !!!")])]
+    [React.createElement("div",{id : "Child1"},
+     [React.createElement("h1",{}, "Hi, I am heading H1 inside parent child1 div !!!"),
+     React.createElement("h2",{}, "Hi, I am heading H2 inside parent child1 div !!!")]),
+    React.createElement("div",{id : "Child2"},
+     [React.createElement("h1",{}, "Hi, I am heading H1 inside parent child2 div !!!"),
+     React.createElement("h2",{}, "Hi, I am heading H2 inside parent child2 div !!!")])]
 )
 
 
@@ -28,7 +28,3 @@ root.render(parent);// again the render method's reasponsibiy is to convert the 
 //** if you wanted to create siblings , then you have put them in array just like above */
 
 console.log(parent);
-
-
-//=======================================================================================================
-
